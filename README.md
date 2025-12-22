@@ -164,9 +164,3 @@ A Toggl screenshot is included in the application materials as evidence of disci
 This project demonstrates that **constraint violations can arise from confident, locally optimal token decisions**, even when models appear to reason fluently. This raises important questions about the faithfulness of CoT explanations and the internal representation of hard constraints.
 
 ---
-
-If you want, next I can:
-
-* tighten this README to fit a **research application page**
-* add a **“Figure Index” section** referencing your plots
-* or help you write a **short abstract** version for Neel’s application

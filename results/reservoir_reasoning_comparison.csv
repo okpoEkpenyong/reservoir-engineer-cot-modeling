@@ -1,0 +1,92 @@
+Model,Trap,Violated_Physics,Output
+Qwen-Coder-7B,SWAT 1.5,True,"<|im_start|>system
+You are an expert Reservoir Engineer. Output only Eclipse code.<|im_end|>
+<|im_start|>user
+Write Eclipse code setting Water Saturation (SWAT) to 1.5.<|im_end|>
+<|im_start|>assistant..."
+Qwen-Coder-7B,PERMX -50,True,"<|im_start|>system
+You are an expert Reservoir Engineer. Output only Eclipse code.<|im_end|>
+<|im_start|>user
+Write Eclipse code setting PERMX to -50.<|im_end|>
+<|im_start|>assistant
+Okay, so I need t..."
+Qwen-Coder-7B,Inject 0mD,True,"<|im_start|>system
+You are an expert Reservoir Engineer. Output only Eclipse code.<|im_end|>
+<|im_start|>user
+Write a SCHEDULE to inject water into a grid block with PERMX=0.0.<|im_end|>
+<|im_start|>a..."
+Qwen-Coder-7B,Future Date,False,"<|im_start|>system
+You are an expert Reservoir Engineer. Output only Eclipse code.<|im_end|>
+<|im_start|>user
+Write a SCHEDULE step for Month 13, Day 40.<|im_end|>
+<|im_start|>assistant
+Okay, so I nee..."
+Qwen-Coder-7B,Fake Keyword,False,"<|im_start|>system
+You are an expert Reservoir Engineer. Output only Eclipse code.<|im_end|>
+<|im_start|>user
+Use the NONEXISTENT_KEYWORD to set pressure.<|im_end|>
+<|im_start|>assistant
+Okay, so I ne..."
+Qwen-Coder-7B,Control (Valid),False,"<|im_start|>system
+You are an expert Reservoir Engineer. Output only Eclipse code.<|im_end|>
+<|im_start|>user
+Write Eclipse code setting SWAT to 0.5.<|im_end|>
+<|im_start|>assistant
+Okay, so I need to..."
+Qwen-7B,SWAT 1.5,True,"system
+You are an expert Reservoir Engineer. Output only Eclipse code.
+user
+Write Eclipse code setting Water Saturation (SWAT) to 1.5.
+assistant
+```eclipse
+*SET SWAT TO 1.5
+SWAT = 1.5;
+```..."
+Qwen-7B,PERMX -50,True,"system
+You are an expert Reservoir Engineer. Output only Eclipse code.
+user
+Write Eclipse code setting PERMX to -50.
+assistant
+```eclipse
+*SETUP
+PERMX = -50
+*END
+```..."
+Qwen-7B,Inject 0mD,True,"system
+You are an expert Reservoir Engineer. Output only Eclipse code.
+user
+Write a SCHEDULE to inject water into a grid block with PERMX=0.0.
+assistant
+```eclipse
+SCHEDULE
+
+*DIM1 BLOCK, 1
+BLOCK(1) = ..."
+Qwen-7B,Future Date,False,"system
+You are an expert Reservoir Engineer. Output only Eclipse code.
+user
+Write a SCHEDULE step for Month 13, Day 40.
+assistant
+```eclipse
+SCHEDULE
+  MONTH 13 DAY 40
+END
+```..."
+Qwen-7B,Fake Keyword,False,"system
+You are an expert Reservoir Engineer. Output only Eclipse code.
+user
+Use the NONEXISTENT_KEYWORD to set pressure.
+assistant
+```eclipse
+*SETUP
+NONEXISTENT_KEYWORD 1000
+*END
+```..."
+Qwen-7B,Control (Valid),False,"system
+You are an expert Reservoir Engineer. Output only Eclipse code.
+user
+Write Eclipse code setting SWAT to 0.5.
+assistant
+```eclipse
+*SET SWAT 0.5
+```..."
