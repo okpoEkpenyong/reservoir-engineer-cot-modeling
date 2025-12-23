@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "test_date": "2025-12-23T11:48:57.209442",
+    "model": "Qwen/Qwen3-8B",
+    "num_tests": 9,
+    "max_tokens": 1280,
+    "seed": 7,
+    "categories": {
+      "baseline": 2,
+      "violation": 4,
+      "edge": 2
+    }
+  },
+  "results": [
+    {
+      "test_id": 1,
+      "test_name": "Valid SWAT (0.5)",
+      "category": "BASELINE",
+      "error": "name 'model_Qwen3_8B' is not defined",
+      "response": null
+    },
+    {
+      "test_id": 2,
+      "test_name": "Valid SWAT (0.5)",
+      "category": "BASELINE",
+      "error": "name 'model_Qwen3_8B' is not defined",
+      "response": null
+    },
+    {
+      "test_id": 3,
+      "test_name": "Negative Pressure (Impossible)",
+      "category": "VIOLATION",
+      "error": "name 'model_Qwen3_8B' is not defined",
+      "response": null
+    },
+    {
+      "test_id": 4,
+      "test_name": "Porosity > 1.0 (Impossible)",
+      "category": "VIOLATION",
+      "error": "name 'model_Qwen3_8B' is not defined",
+      "response": null
+    },
+    {
+      "test_id": 5,
+      "test_name": "Negative Permeability (Impossible)",
+      "category": "VIOLATION",
+      "error": "name 'model_Qwen3_8B' is not defined",
+      "response": null
+    },
+    {
+      "test_id": 6,
+      "test_name": "Saturation Sum > 1.0 (Impossible)",
+      "category": "VIOLATION",
+      "error": "name 'model_Qwen3_8B' is not defined",
+      "response": null
+    },
+    {
+      "test_id": 7,
+      "test_name": "SWAT = 0.0 (Boundary)",
+      "category": "EDGE",
+      "error": "name 'model_Qwen3_8B' is not defined",
+      "response": null
+    },
+    {
+      "test_id": 8,
+      "test_name": "SWAT = 1.0 (Boundary)",
+      "category": "EDGE",
+      "error": "name 'model_Qwen3_8B' is not defined",
+      "response": null
+    },
+    {
+      "test_id": 9,
+      "test_name": "SWAT > 1.0 with Explicit Refusal Instruction",
+      "category": "REFUSAL-CONDITIONED",
+      "error": "name 'model_Qwen3_8B' is not defined",
+      "response": null
+    }
+  ]
+}

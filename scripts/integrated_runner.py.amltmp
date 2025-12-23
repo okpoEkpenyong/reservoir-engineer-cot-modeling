@@ -12,11 +12,11 @@ from datetime import datetime
 import os
 
 # Import from previous modules (would be actual imports in practice)
-# from phase1b_framework import (
-#     AdvancedTest, TestResult, TestSuiteGenerator, 
-#     ResponseAnalyzer, save_test_suite, save_results
-# )
-# from phase1b_visualizations import ResultsVisualizer, create_dashboard
+from phase1b_framework import (
+    AdvancedTest, TestResult, TestSuiteGenerator, 
+    ResponseAnalyzer, save_test_suite, save_results
+)
+from phase1b_visualizations import ResultsVisualizer, create_dashboard
 
 
 class ModelAPIClient:

@@ -4,3 +4,13 @@ __pycache__/
 .cache/
 *.pt
 *.bin
+# Jupyter / Azure ML
+.ipynb_aml_checkpoints/
+*.amltmp
+
+# Jupyter checkpoints (if any)
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+
