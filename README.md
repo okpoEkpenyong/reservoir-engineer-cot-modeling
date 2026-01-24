@@ -65,7 +65,7 @@ This avoids purely surface-level evaluation and grounds the analysis in interpre
 
 ## Model and Setup
 
-* **Model:** Qwen/Qwen2.5-Coder-7B-Instruct
+* **Model:** Qwen/Qwen-3
 * **Decoding:** Greedy (do_sample=False, temperature=0)
 * **Framework:** NNsight
 * **Hardware:** Azure ML GPU (T4 / A100)
